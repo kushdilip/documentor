@@ -6,7 +6,7 @@
     <title>Documentor</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+  
     {{content-for 'head'}}
 
     <link rel="stylesheet" href="assets/vendor.css">
@@ -19,7 +19,10 @@
 
     <script src="assets/vendor.js"></script>
     <script src="assets/documentor.js"></script>
-
+    
+      We are using io.js <script>document.write(window.processNode.version)</script>
+  		and Electron <script>document.write(window.processNode.versions['electron'])</script>.
+      
     {{content-for 'body-footer'}}
   </body>
 </html>
