@@ -1,7 +1,16 @@
 # Documentor
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This is an Electron + Ember based document viewer app. Generally projects have generated documentation in form of html files and need some hosting. If your project is private then you can host the same on github pages. But if your github project is private then hosting is a big issue. Even for public projects the github pages website needs internet for access. 
+Here I am planning to build a desktop tool which can download and sync your public and private github pages website locally.
+Right now this project is in very early stage.
+
+I am planning to build following features in this app
+- Rendering locally downloaded static website using electron
+- Integrating and cloning github branch locally
+- Auth for github private repos
+- Choosing local folders instead of github repos.
+- github login.
+
 
 ## Prerequisites
 
