@@ -18,6 +18,15 @@ module.exports = function(environment) {
       // when it is created
     }
   };
+  
+  ENV.contentSecurityPolicy = {
+    'default-src': "'none'",
+    'script-src': "'self'",
+    'font-src': "'self' fonts.gstatic.com",
+    'connect-src': "'self'",
+    'img-src': "'self' data:",
+    'media-src': "'self'"
+  };
 
   if (environment === 'development') {
     // ENV.APP.LOG_RESOLVER = true;
